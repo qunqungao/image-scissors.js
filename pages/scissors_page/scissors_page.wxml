@@ -1,6 +1,6 @@
 <!--pages/scissors_page/scissors_page.wxml-->
 <view>
-    <scissors id="scissors" bind:shear_image="get_shear_image" set_mask_form="{{set_scissors.shape}}" set_mask_width="{{set_scissors.width}}" set_mask_height="{{set_scissors.height}}" set_image_url="{{set_scissors.url}}" set_mask_diameter="{{set_scissors.diameter}}" set_mask_shift="{{set_scissors.move}}" bind:ImagePath="event"></scissors>
+    <image-scissors id="scissors" bind:shear_image="get_shear_image" set_mask_form="{{set_scissors.shape}}" set_mask_width="{{set_scissors.width}}" set_mask_height="{{set_scissors.height}}" set_image_url="{{set_scissors.url}}" set_mask_diameter="{{set_scissors.diameter}}" set_mask_shift="{{set_scissors.move}}"></image-scissors>
     <view class="tab">
         <view class="tab_list">
             <view class="dispaly_flex interval tab_top">

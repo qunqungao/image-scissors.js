@@ -2,7 +2,7 @@
 <view class="bg">
   <view class="click_img_select" bindtap="click_img_select">
     <image src="../../utils/image/logo.png" class="logo" mode="aspectFit"/>
-    上传图片
+    <text>上传图片</text>
   </view>
   <view class="git_address">
     https://github.com/qunqungao/scissors.js.git

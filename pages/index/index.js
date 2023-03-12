@@ -5,9 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    canvas_width:0,
-    canvas_height:0,
-    IMAGE_OBJECT:null,
     canvas_compress: { // 裁剪层画布
       id: 'canvas_compress',
       canvas: null,
@@ -20,7 +17,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-      
+   
   },
   click_img_select(){
       wx.chooseMedia({

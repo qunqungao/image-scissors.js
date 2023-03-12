@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "scissors":"../scissors/scissors"
+    "image-scissors":"../../Component/image-scissors/image-scissors"
   },
   "backgroundColor":"#000000",
   "navigationBarBackgroundColor":"#000000",
