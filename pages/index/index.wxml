@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view class="bg">
+  <view class="click_img_select" bindtap="click_img_select">
+    <image src="../../utils/image/logo.png" class="logo" mode="aspectFit"/>
+    上传图片
+  </view>
+  <view class="git_address">
+    https://github.com/qunqungao/scissors.js.git
+  </view>
+  <!-- <image src="../../utils/image/logo.png" class="logo"/> -->
+  <canvas type="2d"  id="{{canvas_compress.id}}"
+    style="width:{{canvas_width + 'px'}};height:{{canvas_height + 'px'}};" 
+    class="canvas_compress_class" />
+</view>

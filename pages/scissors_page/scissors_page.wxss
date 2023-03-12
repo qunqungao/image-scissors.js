@@ -1,0 +1,60 @@
+/* pages/scissors_page/scissors_page.wxss */
+.dispaly_flex{
+  display: flex;
+}
+.interval{
+  padding: 5rpx 0rpx;
+}
+.tab{
+  position: absolute;
+  z-index: 2;
+  width: calc(100% - 40rpx);
+  bottom: 0;
+  padding: 20rpx;
+  z-index: 3;
+}
+.tab_list_button{
+  display: flex;
+}
+.weui_input{
+  height: 60rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 30rpx;
+  flex: 1;
+  margin: 0rpx 10rpx;
+}
+.radio_form{
+  display: flex;
+  margin: 0rpx 10rpx;
+}
+.check_label{
+  display: flex;
+  margin: 0rpx 10rpx;
+  align-items: center;
+}
+.tab_btn{
+  font-size: 35rpx;
+  text-align: center;
+  line-height: 70rpx;
+  width: 130rpx;
+  height: 70rpx;
+  margin: 0rpx 10rpx;
+  color: white;
+  background-color:#07C160;
+  border-radius: 10rpx;
+}
+.mask_form{
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.tab_top{
+  justify-content: center;
+  color: white;
+}
+.tab_top text{
+  margin-right: 10rpx;
+}

@@ -1,0 +1,59 @@
+/* pages/index/index.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+  
+.bg{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
+}
+.logo{
+  width: 230rpx;
+  height:230rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.click_img_select{
+  width: 230rpx;
+  height:230rpx;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%,-30%);
+  text-align: center;
+  line-height: 230rpx;
+  border: 4rpx solid white;
+  text-shadow: 0 4rpx 4rpx black;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+  overflow: hidden;
+  background-color: white;
+  /* box-shadow:4rpx 4rpx 20rpx black; */
+  /* color: white; */
+}
+.canvas_compress_class{
+  position: absolute;
+  left:-300px;
+  top:0px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.git_address{
+  position: relative;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-40%);
+  width: 467rpx;
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  /* color: white; */
+  text-align: center;
+  text-shadow: 0 2rpx 2rpx black;
+}

@@ -1,0 +1,35 @@
+<!--pages/scissors_page/scissors_page.wxml-->
+<view>
+    <scissors id="scissors" bind:shear_image="get_shear_image" set_mask_form="{{set_scissors.shape}}" set_mask_width="{{set_scissors.width}}" set_mask_height="{{set_scissors.height}}" set_image_url="{{set_scissors.url}}" set_mask_diameter="{{set_scissors.diameter}}" set_mask_shift="{{set_scissors.move}}" bind:ImagePath="event"></scissors>
+    <view class="tab">
+        <view class="tab_list">
+            <view class="dispaly_flex interval tab_top">
+                <view>
+                    <text>锁定裁剪框宽高</text>
+                    <switch checked="{{set_scissors.move}}" bindchange="switch_change"/>
+                </view>
+                <view class="tab_list_button">
+                    <view bindtap="click_img_rotate" class="tab_btn">旋转</view>
+                    <view bindtap="click_img_shear"  class="tab_btn">截取</view>
+                </view>
+            </view>
+            <view class="dispaly_flex interval">
+                <input class="weui_input" wx:if="{{set_scissors.shape == 1}}" type="number" placeholder="设置裁剪框宽度" bindinput="input_mask_width" />
+                <!-- <view style="width: 20rpx;"></view> -->
+                <input class="weui_input" wx:if="{{set_scissors.shape == 1}}" type="number" placeholder="设置裁剪框高度" bindinput="input_mask_height" />
+                <input class="weui_input" wx:if="{{set_scissors.shape == 2}}" type="number"  placeholder="设置裁剪框直径" bindinput="input_mask_diameter" />
+            </view>
+            <view class="dispaly_flex interval mask_form">
+                <text style="margin: 0rpx 10rpx;">设置裁剪框形状</text>
+                <radio-group bindchange="radio_change" class="radio_form">
+                    <label class="check_label" wx:for="{{items}}" wx:key="value">
+                        <view>
+                            <radio value="{{item.value}}" checked="{{item.checked}}"/>
+                        </view>
+                        <view>{{item.name}}</view>
+                    </label>
+              </radio-group>
+            </view>
+        </view>
+    </view>
+</view>

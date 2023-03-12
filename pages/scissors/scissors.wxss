@@ -1,0 +1,75 @@
+/* pages/scissors/scissors.wxss */
+.canvas_mask_class{
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+.canvas_scissors_class{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.mask{
+  position: relative;
+}
+.mask_view{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mask_top{
+  width: 100%;
+}
+.mask_center_right{
+  height: 100%;
+}
+.mask_center_left{
+  height: 100%;
+}
+.mask_center{
+  display: flex;
+}
+.mask_button{
+  width: 100%;
+}
+.border_left_top{
+  width: 35rpx;
+  height: 35rpx;
+  border-left: 6rpx solid white;
+  border-top: 6rpx solid white;
+  position: absolute;
+  left: -6rpx;
+  top: -6rpx;
+}
+.border_right_top{
+  width: 35rpx;
+  height: 35rpx;
+  border-right: 6rpx solid white;
+  border-top: 6rpx solid white;
+  position: absolute;
+  right: -6rpx;
+  top: -6rpx;
+}
+.border_right_bottom{
+  width: 35rpx;
+  height: 35rpx;
+  border-right: 6rpx solid white;
+  border-bottom: 6rpx solid white;
+  position: absolute;
+  right: -6rpx;
+  bottom: -6rpx;
+}
+.border_left_bottom{
+  width: 35rpx;
+  height: 35rpx;
+  border-left: 6rpx solid white;
+  border-bottom: 6rpx solid white;
+  position: absolute;
+  left: -6rpx;
+  bottom: -6rpx;
+}
