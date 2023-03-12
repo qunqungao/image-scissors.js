@@ -1,7 +1,7 @@
 <!--pages/scissors/scissors.wxml-->
 <view style="width:{{WINDOW_WIDTH + 'px'}};height:{{WINDOW_HEIGHT + 'px'}};background-color: #2E2E2E;overflow: hidden;">
     <view style="width:{{WINDOW_WIDTH + 'px'}};height:{{WINDOW_HEIGHT + 'px'}};" class="canvas_mask_class">
-        <view class="mask_top" style="height:{{ _border_top + 'px'}};transition-duration:{{_transition_time+'s'}}"></view>
+        <view class="mask_top" style="height:{{ _border_top + 'px'}};transition-duration:{{_transition_time+'s'}}"></view>  
             <view class="mask_center" style="width:{{WINDOW_WIDTH + 'px'}};height:{{WINDOW_HEIGHT - (_border_bottom + _border_top) + 'px'}}">
                 <view class="mask_center_left" style="width:{{ _border_left + 'px'}};transition-duration:{{_transition_time+'s'}}"> </view>
                 <view class="mask" style="border-radius:{{ _mask_form == 1 ? 0: 50 + '%'}};width:{{_mask_width + 'px'}};height:{{_mask_height + 'px'}};transition-duration:{{_transition_time+'s'}};  box-shadow: rgba(0,0,0,{{_mask_pellucidity}}) 0 0 0 100vh;transition: box-shadow 1s;" > 
