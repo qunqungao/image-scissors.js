@@ -1,4 +1,4 @@
-# scissors.js
+# image-scissors.js
 
 ### 初始准备
 #### 1.json文件中添加image-scissors
