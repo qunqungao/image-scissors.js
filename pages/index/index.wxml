@@ -5,7 +5,7 @@
     <text>上传图片</text>
   </view>
   <view class="git_address">
-    https://github.com/qunqungao/scissors.js.git
+    https://github.com/qunqungao/image-scissors.js.git
   </view>
   <!-- <image src="../../utils/image/logo.png" class="logo"/> -->
   <canvas type="2d"  id="{{canvas_compress.id}}"
